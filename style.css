@@ -1,5 +1,6 @@
-body {
-  background: no-repeat top center/cover;
-  background-image: url(./assets/Background.jpg);
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+ 
