@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 #background {
-  border: 3px solid red;
   background-color: rgba(68, 58, 147, 1);
   height: 100vh;
   width: 100vw;
 }
 #background-logo {
-  background-image: url(./assets/background-logo.jpg);
+  background-color: rgba(12, 10, 29, 1);
   height: 230px;
   width: 100%;
   background-position: center center;
@@ -19,7 +18,7 @@
   align-items: center;
 }
 #logobox {
-  border: 4px solid #6554b4;
+  border: 4px solid rgba(68, 58, 147, 1);
   background: rgba(255, 255, 255, 0);
   width: 450px;
   height: 135px;
@@ -49,17 +48,19 @@
 #background-bio {
   border: 2px solid red;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   height: 450px;
   background-image: url(./assets/background-bio.png);
   display: flex;
   justify-content: left;
   align-items: center;
+  flex-direction: row-reverse;
+  background-size: cover;
 }
+
 #img-estilizada {
   width: 425px;
   height: 450px;
-  margin-left: calc((100% - 1920px) / 2 + 340px);
 }
 #bio-Mateus {
   display: flex;
@@ -71,16 +72,16 @@
 #bio-Mateus p {
   font-family: "Markazi Text", serif;
   color: rgba(244, 244, 244, 1);
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   display: flex;
-  width: 261px;
+  width: 100%;
   height: 60px;
 }
 #bio-Mateus p2 {
   font-family: "Markazi Text", serif;
   color: rgba(244, 244, 244, 1);
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 400;
   display: flex;
   width: 479.52px;
@@ -89,5 +90,5 @@
   justify-content: center;
   align-items: flex-start;
   line-height: 20px;
-  height: 110px;
+  height: 160px;
 }
